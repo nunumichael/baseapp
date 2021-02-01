@@ -16,7 +16,6 @@ interface Props {
     currency: string;
     type: 'fiat' | 'coin';
     handleToggleAddAddressModal: () => void;
-    handleToggleConfirmationModal: () => void;
 }
 
 
@@ -437,7 +436,7 @@ const BeneficiariesAddModalComponent: React.FC<Props> = (props: Props) => {
     );
 };
 
-const BeneficiariesAddModal= React.memo(BeneficiariesAddModalComponent);
+const BeneficiariesAddModal = React.memo(BeneficiariesAddModalComponent);
 
 export {
     BeneficiariesAddModal,

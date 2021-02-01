@@ -17,4 +17,4 @@ export * from './useUserOrdersHistoryFetch';
 export * from './useWalletsFetch';
 export * from './useOpenOrdersFetch';
 export * from './redux';
-
+export * from './useToggle';
