@@ -9,7 +9,7 @@ test:
 	go test ./...
 
 asset:
-	cd client && \
+	cd web && \
 		yarn install && \
 		./scripts/build.sh && \
 		cp -r build ../public/assets

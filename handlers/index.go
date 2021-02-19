@@ -97,6 +97,7 @@ func index(ctx *gin.Context) {
 		"title":    "Index title!",
 		"cssFiles": cssFiles,
 		"jsFiles":  jsFiles,
+		"data":     "test",
 		"rootID":   "root",
 		"add": func(a int, b int) int {
 			return a + b
