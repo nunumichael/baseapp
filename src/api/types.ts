@@ -32,7 +32,7 @@ declare global {
         captcha_id?: string;
         password_min_entropy: number;
         palette?: string;
-        wizard_step?: number;
+        wizard_step?: string;
     }
 
     interface Window {
